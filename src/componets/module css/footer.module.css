@@ -1,0 +1,45 @@
+.Footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(143, 208, 230);
+  text-align: center;
+  padding: 30px;
+}
+.Electronics {
+  margin: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Homekitchen {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.Jewellery {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.sports {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.books {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}

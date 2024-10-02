@@ -1,0 +1,9 @@
+.mapcontiner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  background-color: white;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}

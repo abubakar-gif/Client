@@ -1,0 +1,130 @@
+.imagecontaner {
+  max-width: 100px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  max-width: 60px;
+  margin-left: -20px;
+  margin-right: 20px;
+
+  height: auto;
+  background-color: white;
+}
+
+.navbarvalue {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: -40px;
+  z-index: 1000;
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  font-family: arial;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+}
+.conti {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin: 0;
+}
+
+.logoimage {
+  border: none;
+  background: none;
+  max-width: 500px;
+  height: 150px;
+  cursor: pointer;
+}
+.image1 {
+  margin-bottom: 70px;
+  float: left;
+
+  max-width: 100%;
+  height: 50px;
+}
+.p {
+  color: white;
+  height: auto;
+  margin-right: 10px;
+}
+.x {
+  background: none;
+  font-size: larger;
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+.Electronics {
+  margin: 10px;
+  background: none;
+  border: none;
+}
+.Homekitchen {
+  margin: 10px;
+  background: none;
+  border: none;
+}
+.Jewellery {
+  background: none;
+  border: none;
+  margin: 10px;
+}
+.sports {
+  margin: 10px;
+  background: none;
+  border: none;
+}
+.books {
+  margin: 10px;
+}
+
+.Electronics1 {
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+.Homekitchen1 {
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+.Jewellery1 {
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+.sports1 {
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+.books1 {
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  cursor: pointer;
+}

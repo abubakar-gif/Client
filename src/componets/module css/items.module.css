@@ -1,0 +1,49 @@
+.itemcontener {
+  display: block;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  padding: auto 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.title {
+  display: flex;
+  font-family: arial;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.buttoncontiner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.view {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+.buy {
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+.link {
+  color: white;
+}
