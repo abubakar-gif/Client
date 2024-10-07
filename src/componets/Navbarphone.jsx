@@ -1,8 +1,8 @@
-import styles from "./module css/navbar.module.css";
+import styles from "./module css/navbarphone.module.css";
 import { useEffect, useState } from "react";
 import image1 from "./images/loogoo1.png";
 import image from "./images/images1.png";
-export default function Navbar({ setnav, nav }) {
+export default function Navbarphone({ setnav, nav }) {
   const [drop, setDrop] = useState(false);
 
   function handleclick() {

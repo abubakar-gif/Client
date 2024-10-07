@@ -1,6 +1,6 @@
-import styles from "./module css/itemlist.module.css";
-import Items from "./Items";
-export default function Itemlist({
+import styles from "./module css/itemlistphone.module.css";
+import Itemsphone from "./Itemsphone";
+export default function Itemlistphone({
   data1,
   nav,
   setnav,
@@ -11,7 +11,7 @@ export default function Itemlist({
   search,
   setsearch,
 }) {
-  const rowsize = 5;
+  const rowsize = 2;
   const rows = [];
 
   for (let i = 0; i < data1.length; i += rowsize) {
@@ -23,7 +23,7 @@ export default function Itemlist({
       {rows.map((row, i) => (
         <div key={i} className={styles.mapcontiner}>
           {row.map((item) => (
-            <Items
+            <Itemsphone
               key={item.id}
               nav={nav}
               item={item}

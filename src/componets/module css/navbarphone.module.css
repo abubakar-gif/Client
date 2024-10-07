@@ -1,10 +1,10 @@
 .imagecontaner {
-  max-width: 100px;
+  max-width: 70px;
 }
 .image {
   display: flex;
   justify-content: center;
-  max-width: 60px;
+  max-width: 50px;
   margin-left: -20px;
   margin-right: 20px;
 
@@ -18,7 +18,7 @@
   left: 0;
   margin-left: -40px;
   z-index: 1000;
-  width: 20%;
+  width: 200px;
   height: 100%;
   background-color: black;
   font-family: arial;

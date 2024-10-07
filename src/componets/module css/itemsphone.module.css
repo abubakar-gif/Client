@@ -1,12 +1,12 @@
-
 .itemcontener {
   display: block;
-  width: 150px;
+  width: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 50px;
   padding: auto 20px;
   border-radius: 8px;
-  margin: 4%;
-  background-color: rgb(143, 208, 230);
+  margin: 10px;
+  
 }
 
 .image {
@@ -17,8 +17,7 @@
 .title {
   display: flex;
   font-family: arial;
-  font-size: 80%;
-  width: 80%;
+  font-size: 16px;
   padding: 20px;
   text-align: center;
   font-weight: bold;

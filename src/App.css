@@ -1,3 +1,35 @@
 body{
-margin: 0;
+  margin: 0;
+}
+ .computer {
+  background-color: aqua;
+  display: none;
+}
+.phone {
+  background-color: white;
+  display: none;
+} 
+
+/* Mobile  */
+@media only screen and (max-width: 767px) {
+  .phone {
+    background-color: white;
+    display: block;
+  }
+}
+
+/* Tablet  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .computer {
+    background-color: white;
+    display: block;
+  }
+}
+
+/*computer*/
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+  .computer {
+    background-color: white;
+    display: block;
+  }
 }

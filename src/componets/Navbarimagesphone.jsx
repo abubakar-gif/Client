@@ -4,8 +4,8 @@ import Gaming from "./images/gamings.png";
 import sport from "./images/sportss.webp";
 import Jewellery from "./images/jolrey.jpg";
 
-import styles from "./module css/navbarimages.module.css";
-export default function Navbarimages({ nav, setnav ,search }) {
+import styles from "./module css/navbarimagesphone.module.css";
+export default function Navbarimagesphone({ nav, setnav ,search }) {
   function handlenav (nav1 ){
   
     setnav(nav1)
@@ -21,26 +21,11 @@ export default function Navbarimages({ nav, setnav ,search }) {
         
       </div>
 
-      <div className={styles.bookscontiner}>
-      <h3>Shop Books</h3>
-        <img className={styles.books} src={books} alt="" />
-        <hr />
-        <a  onClick={()=> handlenav('books')} href="#">See more</a>
-      </div>
+ 
 
-      <div className={styles.sportscontiner}>
-      <h3>Shop Sports</h3>
-        <img className={styles.sports} src={sport} alt="" />
-        <hr />
-        <a href="#"  onClick={()=> handlenav('Sports')}>See more</a>
-      </div>
 
-      <div className={styles.Jewellerycontiner}>
-      <h3>Shop Jewellery</h3>
-        <img className={styles.Jewellery} src={Jewellery} alt="" />
-        <hr />
-        <a href="#"  onClick={()=> handlenav('Jewellery')}>See more</a>
-      </div>
+
+
 
       <div className={styles.Gamingcontiner}>
       <h3>Shop Gaming</h3>

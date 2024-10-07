@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Header from "./Header";
+import Headerphone from "./Headerphone";
 
-export default function ({
+export default function Searchphone ({
   itemD,
   setitemD,
   val,
@@ -27,7 +27,7 @@ export default function ({
 
   return (
     <div>
-      <Header
+      <Headerphone
         setval={setval}
         val={val}
         search={search}
@@ -37,7 +37,6 @@ export default function ({
         page={page}
         setpage={setpage}
       />
-     
     </div>
   );
 }

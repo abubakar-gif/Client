@@ -1,5 +1,5 @@
-import styles from "./module css/description.module.css";
-export default function Descrip({ itemD, search, nav }) {
+import styles from "./module css/descriptionphone.module.css";
+export default function Descripphone({ itemD, search, nav }) {
   
 
   if (search === "home" && nav === itemD.type) {
@@ -9,7 +9,10 @@ export default function Descrip({ itemD, search, nav }) {
           <div className={styles.titlecontinner}>
             <h1>{itemD.title}</h1>
           </div>
+
+          
           <div className={styles.dcontiner}>
+          
             <div className={styles.imagecontinner}>
               <img
                 className={styles.image}
@@ -17,6 +20,10 @@ export default function Descrip({ itemD, search, nav }) {
                 alt=""
               />
             </div>
+            
+
+
+
             <div className={styles.descontinner}>
               <p className={styles.Description}>{itemD.description}</p>
             </div>

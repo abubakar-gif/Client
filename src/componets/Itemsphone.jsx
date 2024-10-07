@@ -1,6 +1,6 @@
-import styles from "./module css/items.module.css";
+import styles from "./module css/itemsphone.module.css";
 
-export default function Items({
+export default function Itemsphone({
   item,
   itemD,
   setitemD,

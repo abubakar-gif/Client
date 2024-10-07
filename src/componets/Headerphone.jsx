@@ -1,7 +1,7 @@
-import styles from "./module css/header.module.css";
+import styles from "./module css/headerphone.module.css";
 import image from "./images/loogoo1.png";
-import Navbar from "./Navbar";
-export default function Header({
+import Navbarphone from "./Navbarphone";
+export default function Headerphone({
   val,
   setval,
   search,
@@ -44,7 +44,7 @@ export default function Header({
         </div>
       </div>
       <div className={styles.Navbar}>
-        <Navbar setnav={setnav} nav={nav} />
+        <Navbarphone setnav={setnav} nav={nav} />
       </div>
     </div>
   );

@@ -6,16 +6,19 @@ display: flex;
 text-align: center;
 font-size: 16px;
 margin-bottom: 10px;
+
 }
 .imagecontinner{
   width: 400px;
   height: auto;
+  
 
 }
 .image{
 width: 100%;
 height: auto;
 align-items: center;
+
 }
 .descontinner{
 background-color:white;
@@ -25,10 +28,12 @@ border-radius: 10px;
 margin-bottom: 10px;
 height: auto;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
 }
 .Description{
 font-size: 20px;
 padding: 20px;
+
 }
 .buttoncontinner{
 width: 100%;
@@ -47,8 +52,18 @@ margin-bottom: 50px;
  border-radius: 4px;
  color: white;
  cursor: pointer;
- 
+
 }
 .link{
   color: white;
+
 }
+
+
+
+
+
+
+
+
+
