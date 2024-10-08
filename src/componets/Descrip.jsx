@@ -1,10 +1,12 @@
 import styles from "./module css/description.module.css";
 export default function Descrip({ itemD, search, nav }) {
   
+  console.log(itemD)
 
   if (search === "home" && nav === itemD.type) {
     return (
       <div>
+     
         <div>
           <div className={styles.titlecontinner}>
             <h1>{itemD.title}</h1>
