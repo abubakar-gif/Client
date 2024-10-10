@@ -17,7 +17,7 @@ export default function Navbarimages({ nav, setnav ,search }) {
         <h3>Shop Electronics</h3>
         <img className={styles.electronics} src={electronics} alt="" />
         <hr />
-        <a onClick={()=> handlenav('Electronics')} href="#">See more</a>
+        <a onClick={()=> handlenav('Electronics')} href="Electronics">See more</a>
         
       </div>
 
@@ -25,28 +25,28 @@ export default function Navbarimages({ nav, setnav ,search }) {
       <h3>Shop Books</h3>
         <img className={styles.books} src={books} alt="" />
         <hr />
-        <a  onClick={()=> handlenav('books')} href="#">See more</a>
+        <a  onClick={()=> handlenav('books')} href="books">See more</a>
       </div>
 
       <div className={styles.sportscontiner}>
       <h3>Shop Sports</h3>
         <img className={styles.sports} src={sport} alt="" />
         <hr />
-        <a href="#"  onClick={()=> handlenav('Sports')}>See more</a>
+        <a href="Sports"  onClick={()=> handlenav('Sports')}>See more</a>
       </div>
 
       <div className={styles.Jewellerycontiner}>
       <h3>Shop Jewellery</h3>
         <img className={styles.Jewellery} src={Jewellery} alt="" />
         <hr />
-        <a href="#"  onClick={()=> handlenav('Jewellery')}>See more</a>
+        <a href="/jewllery"  onClick={()=> handlenav('Jewellery')}>See more</a>
       </div>
 
       <div className={styles.Gamingcontiner}>
       <h3>Shop Gaming</h3>
         <img className={styles.Gaming} src={Gaming} alt="" />
         <hr />
-        <a href="#" onClick={()=> handlenav('Gaming')}>See more</a>
+        <a href="/gaming" onClick={()=> handlenav('Gaming')}>See more</a>
       </div>
     </div>
   );
